@@ -1,0 +1,17 @@
+# Visual Studio 自动生成的配置文件
+*.suo
+*.user
+.vs/
+
+# 编译生成的文件夹（Debug/Release）
+Debug/
+Release/
+x64/
+
+# 编译生成的二进制文件
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.tlog
+*.log
