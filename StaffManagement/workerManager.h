@@ -21,6 +21,27 @@ public:
 	void addEmploy();
 	//保存职工数据
 	void save();
+	//获取文件中人数
+	int getEmpNum();
+	//初始化员工
+	void initEmp();
+	//标注文件是否为空
+	bool fileIsEmpty;
+	//显示职工
+	void showEmp();
+	//删除职工
+	void delEmp();
+	//查找职工是否存在
+	int empIsExist(int id);
+	int empIsExist(string name, int* resultArr);
+	//修改职工
+	void modEmp();
+	//查找职工信息
+	void findEmp();
+	//排序职工
+	void sortEmp();
+	//清空数据
+	void cleanEmp();
 	//记录文件中人数
 	int empNum;
 	//员工数组指针

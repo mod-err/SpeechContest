@@ -25,16 +25,22 @@ int main() {
 			wm.addEmploy();
 			break;
 		case 2://显示信息
+			wm.showEmp();
 			break;
 		case 3://删除信息
+			wm.delEmp();
 			break;
 		case 4://修改信息
+			wm.modEmp();
 			break;
 		case 5://查找信息
+			wm.findEmp();
 			break;
 		case 6://排序信息
+			wm.sortEmp();
 			break;
 		case 7://清空文件
+			wm.cleanEmp();
 			break;
 		default:
 			system("cls");
